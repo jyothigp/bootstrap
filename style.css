@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div p{
+    background-color: red;
+    height: 60px;
+}
+
+div > h3{
+    background-color: pink;
+}
+
+h4 + p{
+    background-color: blueviolet;
+}
+
+h4 ~ h5{
+    background-color: maroon;
+}

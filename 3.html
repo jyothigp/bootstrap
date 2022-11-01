@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <style type="text/css">
+            .row
+            {
+                justify-content: space-between;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="background-color: rgb(128, 128, 187); width:100%; height: 150px;">
+            <h2 style="text-align: center;"><b>Form "A"</b><br>
+                [See <b>Regulation 2.1.1</b>and <b>Regulation 2.1.7</b>]
+            </h2>
+            <h1 style="text-align: center;">Application for Registration under Food Safety and Standard Act, 2006</h1>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Applicant details</legend>
+                <label>Name of the applicant/company: </label>
+                <input type="text" name="applicant" size="60" style="margin-left: 100px;"><br><br>
+                <label>Designation: </label>
+                <input type="radio" name="individual" style="margin-left: 230px;">individual
+                <input type="radio" name="patner">Partner
+                <input type="radio" name="proprieter">proprieter
+                <input type="radio" name="society">Secretary of dairy co-operative society
+                <input type="radio" name="other">Other(s)
+
+            </fieldset><br>          
+
+            <fieldset>
+                <legend>Kind of Business</legend>
+                <div style="width: 100%;">
+                    
+                        <input type="checkbox" name="resturents" checked>Resturents <br><br>
+                        <input type="checkbox" name="one">Permanent/temporary stall holder
+                        <input type="checkbox" name="two" style="margin-left: 220px;">Hawker (Itinerant/mobile food vendor)
+                        <input type="checkbox" name="three" style="margin-left: 300px;">Home based canteens/dabba wallas <br><br>
+                        
+                </div>
+                    
+                <div class="row">
+                    <input type="checkbox" name="four">Petty reatiler of snacks/Tea shops
+                    <input type="checkbox" name="five" style="margin-left: 220px;">Manufacturer/Processor        
+                    <input type="checkbox" name="six" style="margin-left: 395px;">Re Packer <br><br>
+                </div>
+    
+                <div class="row">
+                    <input type="checkbox" name="seven">Food stalls/arrangements in Religious gatherings, fairs, etc
+                    <input type="checkbox" name="eight" style="margin-left: 55px;">Milk products (who are not member of dairy co operative society)/milk vendor
+                    <input type="checkbox" name="ninr" style="margin-left: 45px;">Dhaba <br><br>
+                </div>
+                    
+                <div class="row">
+                    <input type="checkbox" name="ten">Fish/meat/poultry shop/seller
+                    <input type="checkbox" name="eleven" style="margin-left: 245px;">Other(s)
+                    <input type="checkbox" name="twelve" style="margin-left: 500px;">Food vending agencies
+                </div>
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Address of the premises where food business is located</legend>
+                <label>State : </label>
+                <label style="margin-left: 200px;">TamilNadu</label><br><br>
+            
+                <label>Address : </label>
+                <textarea name="addres" id="address" cols="30" rows="5" placeholder="Enter address here" style="margin-left: 150px;"></textarea>
+                <label style="margin-left: 300px;">Subdivision/station division: </label>
+                        <select name="division" style="margin-left: 50px;">
+                            <option>-- Select Sub-division</option>
+                            <option>123</option>
+                            <option>456</option>
+                            <option>789</option>
+                            <option>101</option>
+                        </select><br><br><br>
+                
+                        <label>District/Region/Zone : </label>
+                        <select name="district" style="margin-left: 100px;">
+                            <option>Select District</option>
+                            <option>Ariyalur</option>
+                            <option>Chengalpattu</option>
+                            <option>Chennai</option>
+                            <option>Coimbatore</option>
+                        </select>      
+                       
+                
+                        <label style="margin-left: 410px;">Pincode :</label>
+                        <input type="text" name="pincode" style="margin-left: 170px;"><br><br>
+            
+                        <label>Nearest Landmark : </label>
+                        <input type="text" name="landmark" size="30" style="margin-left: 120px;">
+            
+                        <label style="margin-left: 270px;">Village :</label>
+                        <select name="village" style="margin-left: 180px;">
+                            <option>Select village</option>
+                            <option>123</option>
+                            <option>456</option>
+                            <option>789</option>
+                            <option>101</option>
+                        </select><br>                           
+            
+                
+            
+                          
+            
+            </fieldset>
+
+            <p>Is your correspondence address same as address of prrmises ?</p>
+            <input type="radio" name="yes"> yes
+            <input type="radio" name="no"> no
+                 
+            
+
+
+        </form>
+
+
+
+
+
+    </body>
+</html>

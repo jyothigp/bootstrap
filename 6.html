@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Positions and border boxing</title>
+    </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        div.rel
+        {
+            position: relative;
+            /* right: 0;
+            top: 0; */
+            left: 0;
+        }
+
+        div.abs{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        div.fix{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+        div.stick{
+            position: sticky;
+            top: 0;
+            left: 0;
+            color: white;
+        } 
+    </style>
+    <body>
+        <div class="stick" style="background-color: blue; width: 150px; display: inline-block; height: 100px; padding: 10px; box-sizing: border-box;">Want to meet you..</div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+        </p>
+        <div class="rel" style="background-color: red; width: 400px; display: inline-block; height: 100px; padding: 10px; ">Hi.. Want to have some
+            <i class="fa fa-coffee"></i>
+            <div class="abs" style="background-color: pink; width: 50px; display: inline-block; height: 50px; padding: 10px; ">Hello
+                <i class="fa fa-automobile"></i>
+            </div>
+        </div>
+        
+        <div class="fix" style="background-color: green; width: 150px; display: inline-block; height: 100px; padding: 10px; ">How are you..
+            <i class="fa fa-address-book" style="font-size: 24px;"></i>
+        </div>
+        
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam maiores praesentium quidem blanditiis perspiciatis nobis accusantium facere officia amet expedita quos aliquam magni explicabo, beatae maxime harum, numquam nostrum ducimus!
+        </p>
+    </body>
+</html>
